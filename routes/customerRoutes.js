@@ -7,6 +7,7 @@ const {
   getCustomers,
   updateCustomer,
   deleteCustomer,
+  generateCutomerPDF
 } = require('../controllers/customerController');
 
 router.use(authMiddleware); // Protect all routes below
