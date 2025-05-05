@@ -101,5 +101,6 @@ module.exports = {
   getCustomers,
   updateCustomer,
   deleteCustomer,
+  generateCustomerPDF
 };
 
